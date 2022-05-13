@@ -1,0 +1,9 @@
+@extends('layouts.frontend')
+@section('title','About')
+@section('content')
+    @include('banner.HomeAbout')
+    @include('banner.bestFeatures')
+    @include('user.team')
+    @include('user.service')
+    @include('user.Clients')
+@endsection
